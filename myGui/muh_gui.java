@@ -6,6 +6,7 @@ Public class myGui implements Comparable<String>{
     }
 
     public String getString() {
+	// This is getting the strung
         return this.myStrung;
     }
 
@@ -16,6 +17,7 @@ Public class myGui implements Comparable<String>{
 
     @Override
     public int compareTo(String comparable) {
+	    // Bugs be gone!
         return this.myString.compareTo(comparable);
     }
 }
