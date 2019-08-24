@@ -1,20 +1,21 @@
 Public class myGui implements Comparable<String>{
-    private String myString;
+    private String myStrung;
 
-    public myGui() {
-        mySting = new String("a string");
+    public myGui(){
+        this.myStrung = new String("this is a really big strung");
     }
 
     public String getString() {
-	return this.myString;
+        return this.myStrung;
+    }
+
+    @Override
+    public String toString() {
+        return this.myString;
     }
 
     @Override
     public int compareTo(String comparable) {
-	return this.myString.compareTo(comparable);
-    }
-
-    public String toString() {
-        return this.myString;
+        return this.myString.compareTo(comparable);
     }
 }
