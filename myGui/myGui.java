@@ -1,4 +1,4 @@
-Public class myGui {
+Public class myGui implements Comparable<String>{
     private String myString;
 
     public myGui() {
@@ -7,5 +7,10 @@ Public class myGui {
 
     public String getString() {
 	return this.myString;
+    }
+
+    @Override
+    public int compareTo(String comparable) {
+	return this.myString.compareTo(comparable);
     }
 }
