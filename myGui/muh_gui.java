@@ -13,4 +13,8 @@ Public class myGui implements Comparable<String>{
     public int compareTo(String comparable) {
 	return this.myString.compareTo(comparable);
     }
+
+    public String toString() {
+        return this.myString;
+    }
 }
