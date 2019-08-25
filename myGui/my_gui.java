@@ -2,12 +2,12 @@ Public class myGui implements Comparable<String>{
     private String myString;
 
     public myGui(){
-        this.myStrung = new String("this is a really big strung");
+        this.myString = new String("this is a really big string");
     }
 
     public String getString() {
-	// This is getting the strung
-        return this.myStrung;
+	// This is getting the string
+        return this.myString;
     }
 
     public String reverse() {
