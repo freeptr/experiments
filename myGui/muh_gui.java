@@ -1,5 +1,5 @@
 Public class myGui implements Comparable<String>{
-    private String myStrung;
+    private String myString;
 
     public myGui(){
         this.myStrung = new String("this is a really big strung");
@@ -8,6 +8,10 @@ Public class myGui implements Comparable<String>{
     public String getString() {
 	// This is getting the strung
         return this.myStrung;
+    }
+
+    public String reverse() {
+        return this.myString.reverse();
     }
 
     @Override
